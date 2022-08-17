@@ -1,0 +1,25 @@
+
+
+                                <SuperButton
+                                    red // пропсу с булевым значением не обязательно указывать true
+                                    onClick={showAlert}
+                                >
+/* название кнопки*/               NameButton {/*// название кнопки попадёт в children*/}
+                                </SuperButton>
+
+/* конопка состоит из открывающего и закрывающего тега */
+/* все что между тегами попадает в  children, в данном случае название кнопки NameButton*/
+
+/* чтобы заблокировать кнопку в открывающем теге ->disabled */
+<SuperButton disabled>NameButton</SuperButton>
+/* чтобы заблокировать кнопку по условию  в открывающем теге ->disabled={условие true/false} */
+<SuperButton disabled={error}>NameButton</SuperButton>
+
+
+/* чтобы добавить  красный фон в открывающем теге ->red, подключается класс red из SuperButton.module.css */
+<SuperButton red>NameButton</SuperButton>
+/* чтобы добавить  собственный стиль, например .strict, то в открывающем теге ->className={'strict'},
+подключается класс .strict из App.css */
+<SuperButton className={'strict'}>NameButton</SuperButton>
+/*можно использовать два класса -> finalClassName = `${red ? s.red : s.default} ${className}`*/
+<SuperButton red className={'strict'}>NameButton</SuperButton>

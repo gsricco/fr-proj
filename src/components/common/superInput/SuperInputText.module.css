@@ -1,0 +1,31 @@
+/*.superInput1 {*/
+/*    !*border: 1px solid grey;*!*/
+/*    outline: 1px solid grey;*/
+/*    background: gray;*/
+/*}*/
+.superInput {
+    background-color: gainsboro;
+    color: black;
+    resize: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+    font-size: 14px;
+    line-height: 1.8;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.errorInput {
+    /*border: 1px solid red;*/
+    outline: 1px solid red;
+    background: gray;
+}
+
+.error {
+    color: red;
+    min-height: 22px;
+}

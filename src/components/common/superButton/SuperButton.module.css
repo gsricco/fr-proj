@@ -1,0 +1,24 @@
+.default {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: grey;
+    text-shadow: 1px 1px 2px white;
+    box-shadow: 2px 2px 5px dimgrey;
+    outline: 1px solid dimgray;
+    border:2px solid lightgrey;
+    border-radius: 5px;
+    transition: 0.4s;
+    margin: 10px;
+}
+.default:hover {
+    background: dimgrey;
+    outline: 1px solid black;
+}
+
+.default:active {
+    background-color: black;
+    box-shadow: none;
+    transform: translateY(1px);
+}

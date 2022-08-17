@@ -1,0 +1,28 @@
+.pageError {
+    min-height: 100vh;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-shadow: 1px 1px 2px ghostwhite, 0 0 1em darkgrey, 0 0 0.2em darkgray;
+}
+.pageError span {
+    font-size: 80px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 1em darkgrey, 0 0 0.2em darkgray;
+}
+.pageError a {
+    font-size: 20px;
+}
+
+.pageError img {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.testPage {
+    min-height: 100vh;
+    text-align: center;
+   }
+
+
